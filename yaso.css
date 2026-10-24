@@ -1,0 +1,93 @@
+body{
+background-color: ghostwhite;
+font-family: Arial, Helvetica, sans-serif;
+padding: 0;
+margin: 0;
+text-align: center;
+
+}
+header{
+   background-color: cyan;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+
+   }
+.logo{
+    font-weight: 50px;
+    font-size:50px ;
+}
+.logo span{
+    color: #007bff;
+    }
+nav a{
+
+margin-left: 14px;
+text-decoration: none;
+color: rgb(255, 187, 0);
+font-size: 20px;
+transition: 0.5s;
+
+}
+
+.hero{
+    padding: 20px 40px;
+}
+.hero h1{
+    color: cyan;
+    font-size: 20px;
+    margin-bottom: 10px;
+
+}
+.hero p{
+color: blueviolet;
+font-size: 20px;
+margin-bottom: 20px;
+                    }
+
+button{
+    background-color: darkturquoise; 
+    color: black;
+    padding:10px 20px;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-bottom: 20px;
+ }
+img{
+    width: 90%;
+    max-width: 400px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 7px;
+}
+
+.project{
+    padding: 40px 20px ;
+    max-width: 600px;
+   margin: 0 auto; 
+}
+.project-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+}
+h2{
+  color: lightskyblue;
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+.@media (max-width  600px) {
+
+}
+
+header{
+    flex-direction: column ;
+    gap: 10px;
+}
+.project-grid{
+    grid-template-columns: 1fr;
+}
